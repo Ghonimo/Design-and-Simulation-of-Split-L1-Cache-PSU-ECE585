@@ -1,0 +1,146 @@
+C:\Users\Manatee\source\repos\Cache_Project_2.0\x64\Debug>Cache_Project_2.0 test1.txt
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+         Simulation of an L1 split cache of a 32-bit Processor
+
+              ECE 585 Final Project Winter 2023 - Team 1
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  Mode 0: Display only the required summary of usage statistics and responses to 9s in the trace file.
+  Mode 1: Display everything from mode 1, as well as the communication messages to the L2 cache.
+
+  Please enter the mode number you'd like to select (0,1): 4
+
+        Invalid mode value.
+
+  Please enter the mode number you'd like to select (0,1): 2
+
+        Invalid mode value.
+
+  Please enter the mode number you'd like to select (0,1): 0
+
+
+         -- COMBINED CACHE STATISTICS --
+  Number of Cache Reads:        8
+  Number of Cache Writes:       0
+  Number of Cache Hits:         0
+  Number of Cache Misses:       8
+  Cache Hit Ratio:              0
+  Cache Hit Percentage:         0 %
+
+
+
+         -- COMBINED CACHE STATISTICS --
+  Number of Cache Reads:        11
+  Number of Cache Writes:       3
+  Number of Cache Hits:         0
+  Number of Cache Misses:       14
+  Cache Hit Ratio:              0
+  Cache Hit Percentage:         0 %
+
+
+
+         -- COMBINED CACHE STATISTICS --
+  Number of Cache Reads:        12
+  Number of Cache Writes:       3
+  Number of Cache Hits:         1
+  Number of Cache Misses:       14
+  Cache Hit Ratio:              0.333333
+  Cache Hit Percentage:         33.3333 %
+
+
+
+         -- COMBINED CACHE STATISTICS --
+  The cache was not used/not operated on.
+  Number of Cache Reads:        0
+  Number of Cache Writes:       0
+  Number of Cache Hits:         0
+  Number of Cache Misses:       0
+  Cache Hit Ratio:              0
+  Cache Hit Percentage:         0 %
+
+
+
+         ----- L1 Split Cache Anaylsis and Simulation Completed! -----
+
+C:\Users\Manatee\source\repos\Cache_Project_2.0\x64\Debug>Cache_Project_2.0 test1.txt
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+         Simulation of an L1 split cache of a 32-bit Processor
+
+              ECE 585 Final Project Winter 2023 - Team 1
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  Mode 0: Display only the required summary of usage statistics and responses to 9s in the trace file.
+  Mode 1: Display everything from mode 1, as well as the communication messages to the L2 cache.
+
+  Please enter the mode number you'd like to select (0,1): 1
+
+ [Data-Operation] Read from L2: L1 cache miss, obtain data form L2 847de198
+ [Data-Operation] Read from L2: L1 cache miss, obtain data form L2 722de323
+ [Data-Operation] Read from L2: L1 cache miss, obtain data form L2 401de268
+ [Data-Operation] Read from L2: L1 cache miss, obtain data form L2 386de170
+ [Data-Operation] Read from L2: L1 cache miss, obtain data form L2 269de972
+ [Data-Operation] Read from L2: L1 cache miss, obtain data form L2 241de661
+ [Data-Operation] Read from L2: L1 cache miss, obtain data form L2 992de271
+ [Data-Operation] Read from L2: L1 cache miss, obtain data form L2 434de709
+
+         -- COMBINED CACHE STATISTICS --
+  Number of Cache Reads:        8
+  Number of Cache Writes:       0
+  Number of Cache Hits:         0
+  Number of Cache Misses:       8
+  Cache Hit Ratio:              0
+  Cache Hit Percentage:         0 %
+
+
+ [Data-Operation] Read from L2: L1 cache miss, obtain data form L2 434de958
+ [Data-Operation] Read for Ownership from L2 992de880
+ [Data Write_Through] Write to L2: we have a data Cache Miss 992de880
+ [Instruction-Operation] Read from L2: L1 cache miss, obtain instruction from L2 269de915
+ [Data-Operation] Read for Ownership from L2 570de383
+ [Data Write_Through] Write to L2: we have a data Cache Miss 570de383
+ [Data-Operation] Read for Ownership from L2 553de321
+ [Data Write_Through] Write to L2: we have a data Cache Miss 553de321
+ [Instruction-Operation] Read from L2: L1 cache miss, obtain instruction from L2 333de896
+
+         -- COMBINED CACHE STATISTICS --
+  Number of Cache Reads:        11
+  Number of Cache Writes:       3
+  Number of Cache Hits:         0
+  Number of Cache Misses:       14
+  Cache Hit Ratio:              0
+  Cache Hit Percentage:         0 %
+
+
+
+         -- COMBINED CACHE STATISTICS --
+  Number of Cache Reads:        12
+  Number of Cache Writes:       3
+  Number of Cache Hits:         1
+  Number of Cache Misses:       14
+  Cache Hit Ratio:              0.333333
+  Cache Hit Percentage:         33.3333 %
+
+
+ [Data-Operation] Read for Ownership from L2 363de999
+ [Data Write_Through] Write to L2: we have a data Cache Miss 363de999
+
+         -- COMBINED CACHE STATISTICS --
+  The cache was not used/not operated on.
+  Number of Cache Reads:        0
+  Number of Cache Writes:       0
+  Number of Cache Hits:         0
+  Number of Cache Misses:       0
+  Cache Hit Ratio:              0
+  Cache Hit Percentage:         0 %
+
+
+
+         ----- L1 Split Cache Anaylsis and Simulation Completed! -----
+
+C:\Users\Manatee\source\repos\Cache_Project_2.0\x64\Debug>
