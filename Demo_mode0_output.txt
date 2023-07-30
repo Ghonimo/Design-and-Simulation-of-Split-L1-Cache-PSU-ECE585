@@ -1,0 +1,32 @@
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+         Simulation of an L1 split cache of a 32-bit Processor
+
+              ECE 585 Final Project Winter 2023 - Team 1
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  Mode 0: Display only the required summary of usage statistics and responses to 9s in the trace file.
+  Mode 1: Display everything from mode 1, as well as the communication messages to the L2 cache.
+
+  Please enter the mode number you'd like to select (0,1): 0
+
+
+         ** KEY CACHE USAGE STATISTICS **
+
+         -- DATA CACHE STATISTICS --
+ number of Cache Reads:         159631
+ number of Cache Writes:        83030
+ number of Cache Hits:          241528
+ number of Cache Misses:        1133
+ Cache Hit Ratio:               0.995331
+ Cache Hit Percentage:  99.5331 %
+
+         -- INSTRUCTION CACHE STATISTICS --
+ number of Cache Reads:         757341
+ number of Cache Hits:          754368
+ number of Cache Misses:        2973
+ Cache Hit Ratio:               0.996074
+ Cache Hit Percentage:  99.6074 %
+
+         --- L1 Split Cache Anaylsis and Simulation Completed! ---
